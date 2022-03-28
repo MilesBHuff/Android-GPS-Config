@@ -18,6 +18,7 @@ print_modname() {
     ui_print "*      by:                   *"
     ui_print "*       - ianhughes74        *"
     ui_print "*       - JonasCardoso       *"
+    ui_print "*       - Astralix           *"
     ui_print "*       - MilesBHuff         *"
     ui_print "*                            *"
     ui_print "******************************"
