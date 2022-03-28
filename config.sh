@@ -1,9 +1,13 @@
 #!/bin/sh
 
 AUTOMOUNT=true
-PROPFILE=false
-POSTFSDATA=false
 LATESTARTSERVICE=false
+POSTFSDATA=false
+PROPFILE=false
+REPLACE="
+/system/etc/gps.conf
+/system/vendor/etc/gps.conf
+"
 
 print_modname() {
     ui_print "******************************"
@@ -18,11 +22,6 @@ print_modname() {
     ui_print "*                            *"
     ui_print "******************************"
 }
-
-REPLACE="
-/system/etc/gps.conf
-/system/vendor/etc/gps.conf
-"
 
 set_permissions() {
     set_perm_recursive $MODPATH 0 0 0755 0644
