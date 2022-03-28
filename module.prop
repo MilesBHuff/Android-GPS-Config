@@ -4,4 +4,4 @@ version=v1.0
 versionCode=1
 author=MilesBHuff, JonasCardoso, Astralix, ianhughes74
 description=This module replaces the default `gps.conf` file with a superior one.
-minMagisk=17000
+minMagisk=15000
